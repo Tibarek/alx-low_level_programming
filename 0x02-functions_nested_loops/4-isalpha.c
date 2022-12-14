@@ -19,16 +19,14 @@ int _isalpha(int c)
 		if (c == i)
 			return (1);
 
-		else
-			i++;
+		i++;
 	}
 	j = 'A';
 	while (j <= 'Z')
 	{
 		if (c == j)
 			return (1);
-		else
-			j++;
+		j++;
 	}
 	return (0);
 }
