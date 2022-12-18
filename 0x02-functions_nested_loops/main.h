@@ -19,3 +19,5 @@ void jack_bauer(void);
 void times_table(void);
 
 void times_table(void);
+
+void print_long(long value);
