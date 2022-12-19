@@ -20,11 +20,12 @@ void rev_string(char *s)
 
 	j = 0;
 	len = i - 1;
-	while (j < len / 2)
+	while (j < len)
 	{
-		ch = s[j];
-		s[j] = s[len - j];
-		s[len - j] = ch;
+		ch = s[len];
+		s[len] = s[j];
+		s[j] = ch;
 		j++;
+		len--;
 	}
 }
