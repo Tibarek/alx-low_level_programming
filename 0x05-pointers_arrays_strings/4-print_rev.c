@@ -1,10 +1,14 @@
 #include "main.h"
 
 /**
- * print_rev - prints reverse os string
+ * print_rev - prints reverse of string
+ *
  * @s: string to be reversed
+ *
  * _strlen - returns length of string
+ *
  * @st: string length
+ *
  * Return: Nothing
  */
 int _strlen(char *st)
