@@ -5,16 +5,18 @@
  *
  * @s: string to be reversed
  *
- * Return: Nothing
+ * _strlen - returns length of string
  *
- * _strlen: returns length of string
+ * @c: string length
+ *
+ * Return: nothing
  */
-int _strlen(char *st)
+int _strlen(char *c)
 {
 	int i;
 
 	i = 0;
-	while (*(st + i) != '\0')
+	while (*(c + i) != '\0')
 	{
 		i++;
 	}
@@ -23,6 +25,7 @@ int _strlen(char *st)
 
 void print_rev(char *s)
 {
+
 	int len;
 	char ch;
 
