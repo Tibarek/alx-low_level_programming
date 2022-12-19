@@ -7,11 +7,7 @@
  *
  * Return: Nothing
  *
- * _strlen - returns length of string
- *
- * @st: string length
- *
- * Return: Size of string
+ * _strlen: returns length of string
  */
 int _strlen(char *st)
 {
