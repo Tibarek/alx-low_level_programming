@@ -5,11 +5,13 @@
  *
  * @s: string to be reversed
  *
+ * Return: Nothing
+ *
  * _strlen - returns length of string
  *
  * @st: string length
  *
- * Return: Nothing
+ * Return: Size of string
  */
 int _strlen(char *st)
 {
