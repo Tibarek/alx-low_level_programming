@@ -4,7 +4,7 @@
  * _isupper - changes char to upper
  *
  * @c: character to be checked
- * Return: 0 or 1
+ * Return: 0 not upper or 1 is upper
  */
 int _isupper(int c)
 {
@@ -14,7 +14,9 @@ int _isupper(int c)
 	while (i <= 'Z')
 	{
 		if (c == i)
+		{
 			return 1;
+		}
 		i++;
 	}
 	return 0;
