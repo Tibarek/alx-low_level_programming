@@ -13,7 +13,7 @@ int _isupper(int c)
 	i = 'A';
 	while (i <= 'Z')
 	{
-		if ( c == i)
+		if (c == i)
 			return 1;
 		i++;
 	}
