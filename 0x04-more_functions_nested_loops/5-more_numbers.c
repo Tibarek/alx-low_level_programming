@@ -7,18 +7,9 @@
  * @value: value to be changed
  * Return: Nothing
  */
-void print_long(long value)
-{
-	if (value != 0)
-	{
-		print_long(value / 10);
-		_putchar((value % 10 + '0'));
-	}
-}
-
 void more_numbers(void)
 {
-	int i,j;
+	int i, j, k, l, m;
 
 	for (j = 0; j <=9; j++)
 	{
@@ -30,7 +21,19 @@ void more_numbers(void)
 			}
 			else
 			{
-				print_long(i);
+				k = i;
+				if ( k <= 9)
+					l = k;
+				else
+					l = k / 10;
+				m = 0;
+				while (m < 2)
+				{
+					_putchar((l % 10 + '0'));
+					l = k % 10;
+					m++;
+					
+				}
 			}
 		}
 		_putchar('\n');
