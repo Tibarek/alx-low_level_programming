@@ -6,7 +6,7 @@
  * @dest: destination string
  * @src: source string
  * @n: integer count
- * Return: concat char
+ * Return: concat char pointer
  */
 char *_strncat(char *dest, char *src, int n)
 {
