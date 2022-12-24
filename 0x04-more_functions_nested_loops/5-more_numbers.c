@@ -2,39 +2,21 @@
 
 /**
  * more_numbers - prints numbers
- *
- * print_long - gives number value
- * @value: value to be changed
  * Return: Nothing
  */
 void more_numbers(void)
 {
-	int i, j, k, l, m;
+	int x, y;
 
-	for (j = 0; j <=9; j++)
+	for (x = 0; x < 10; x++)
 	{
-		for (i = 0; i <= 14; i++)
+		for (y = 0; y <= 14; y++)
 		{
-			if (i == 0)
+			if (y > 9)
 			{
-				_putchar('0');
+				_putchar((y / 10) + '0');
 			}
-			else
-			{
-				k = i;
-				if ( k <= 9)
-					l = k;
-				else
-					l = k / 10;
-				m = 0;
-				while (m < 2)
-				{
-					_putchar((l % 10 + '0'));
-					l = k % 10;
-					m++;
-
-				}
-			}
+			_putchar((y % 10) + '0');
 		}
 		_putchar('\n');
 	}
