@@ -21,3 +21,5 @@ void times_table(void);
 void times_table(void);
 
 void print_long(long value);
+
+int add(int, int);
