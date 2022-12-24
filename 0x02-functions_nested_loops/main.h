@@ -23,3 +23,5 @@ void times_table(void);
 void print_long(long value);
 
 int add(int, int);
+
+void print_to_98(int n);
