@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - prints numbers
- * 
+ *
  * print_long - gives number value
  * @value: value to be changed
  * Return: Nothing
@@ -32,7 +32,7 @@ void more_numbers(void)
 					_putchar((l % 10 + '0'));
 					l = k % 10;
 					m++;
-					
+
 				}
 			}
 		}
