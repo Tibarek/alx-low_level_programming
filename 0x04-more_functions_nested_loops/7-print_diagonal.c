@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints diagonal
- *
- * @n: number of diagonal 
+ * print_diagonal - prints diagonal of slash
+ * @n: number of diagonal
  * Return: Nothing
  */
 void print_diagonal(int n)
