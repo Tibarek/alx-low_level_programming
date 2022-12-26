@@ -3,7 +3,8 @@
 /**
  * print_triangle - prints triangle of size
  *
- * Return: Nothing
+ * @size: size of the triangle
+ * Return: Nothing or void
  */
 void print_triangle(int size)
 {
@@ -12,7 +13,6 @@ void print_triangle(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
-
 	}
 	else
 	{
